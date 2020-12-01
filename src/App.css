@@ -1,3 +1,71 @@
+h1 {
+  text-align: center;
+  color:  rgb(49, 165, 49);
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.main-container {
+  width: 700px;
+  height: 450px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.primary {
+  width: 50px;
+  height: 50px;
+  background-color: lightgrey;
+  border: solid white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.primary:hover {
+  background-color: grey;
+}
+
+.secondary:hover {
+  background-color: grey;
+}
+
+.secondary {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background: darkslategray;
+  border: solid white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#equal {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: rgb(49, 165, 49);
+  border: solid white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#equal:hover {
+  background-color: green;
+}
+
+#number-input {
+  width: 100%;
+  height: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .App {
   text-align: center;
 }
